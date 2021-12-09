@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App Shortcut</string>
+    <string name="short_label_new_visit">New Visit</string>
+    <string name="long_label_new_visit">New Visit for booking</string>
+    <string name="shortcut_not_available">Shortcut Not Support</string>
+</resources>

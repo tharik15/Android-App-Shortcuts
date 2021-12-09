@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:shortcutShortLabel="@string/short_label_new_visit"
+        android:shortcutLongLabel="@string/long_label_new_visit"
+        android:shortcutDisabledMessage="@string/shortcut_not_available">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.appshortcut"
+            android:targetClass="com.example.appshortcut.NewVisitActivity" >
+            <extra
+                android:name="key"
+                android:value="Static Shortcut 2 Extras Message" />
+        </intent>
+
+    </shortcut>
+</shortcuts>
